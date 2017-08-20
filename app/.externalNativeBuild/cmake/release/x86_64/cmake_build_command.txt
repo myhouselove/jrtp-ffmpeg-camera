@@ -1,0 +1,15 @@
+Executable : G:\sdk\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HG:\opengl\Githubrtp\app
+-BG:\opengl\Githubrtp\app\.externalNativeBuild\cmake\release\x86_64
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=G:\sdk\Android\Sdk\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=G:\opengl\Githubrtp\app\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=G:\sdk\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=G:\sdk\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_PLATFORM=android-21
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+jvmArgs : 
+
