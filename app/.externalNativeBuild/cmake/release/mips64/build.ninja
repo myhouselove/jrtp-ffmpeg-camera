@@ -35,8 +35,8 @@ include rules.ninja
 build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/native-lib.cpp
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\native-lib.cpp.o.d
-  FLAGS = -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC
-  INCLUDES = -isystem G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  FLAGS = -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -v -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/include -isystem G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = G:\opengl\Githubrtp\app\src\main\cpp\native-lib.cpp
   OBJECT_DIR = CMakeFiles\native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
@@ -46,18 +46,18 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
 
 
 #############################################
-# Link the shared library ..\..\..\..\build\intermediates\cmake\release\obj\mips64\libnative-lib.so
+# Link the shared library G:\opengl\Githubrtp\jniLibs\mips64\libnative-lib.so
 
-build ../../../../build/intermediates/cmake/release/obj/mips64/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | G$:/sdk/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib64/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG
+build G$:/opengl/Githubrtp/jniLibs/mips64/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../src/main/cpp/libs/librtp_jni.so G$:/sdk/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib64/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -v -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a --sysroot G:/sdk/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = -llog -lm "G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/libgnustl_static.a"
+  LINK_LIBRARIES = ../../../../src/main/cpp/libs/librtp_jni.so -llog -lm "G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles\native-lib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   SONAME = libnative-lib.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = ..\..\..\..\build\intermediates\cmake\release\obj\mips64\libnative-lib.so
+  TARGET_FILE = G:\opengl\Githubrtp\jniLibs\mips64\libnative-lib.so
   TARGET_PDB = native-lib.so.dbg
 
 #############################################
@@ -81,8 +81,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build libnative-lib.so: phony ../../../../build/intermediates/cmake/release/obj/mips64/libnative-lib.so
-build native-lib: phony ../../../../build/intermediates/cmake/release/obj/mips64/libnative-lib.so
+build libnative-lib.so: phony G$:/opengl/Githubrtp/jniLibs/mips64/libnative-lib.so
+build native-lib: phony G$:/opengl/Githubrtp/jniLibs/mips64/libnative-lib.so
 # =============================================================================
 # Folder targets.
 
@@ -94,7 +94,7 @@ build native-lib: phony ../../../../build/intermediates/cmake/release/obj/mips64
 #############################################
 # The main all target.
 
-build all: phony ../../../../build/intermediates/cmake/release/obj/mips64/libnative-lib.so
+build all: phony G$:/opengl/Githubrtp/jniLibs/mips64/libnative-lib.so
 
 #############################################
 # Make the all target the default.

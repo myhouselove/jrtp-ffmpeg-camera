@@ -8,6 +8,14 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
+		"librtp_jni-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "librtp_jni",
+			"buildType" : "debug",
+			"output" : "G:/opengl/Githubrtp/app/src/main/cpp/libs/librtp_jni.so",
+			"toolchain" : "1812056545"
+		},
 		"native-lib-Debug-armeabi" : 
 		{
 			"abi" : "armeabi",
@@ -18,12 +26,12 @@
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=G:/sdk/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/sdk/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=G:/sdk/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/sdk/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -v -std=gnu++11 -fexceptions -frtti -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "G:/opengl/Githubrtp/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "G:/opengl/Githubrtp/app/.externalNativeBuild/cmake/debug/armeabi"
 				}
 			],
-			"output" : "G:/opengl/Githubrtp/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"output" : "G:/opengl/Githubrtp/jniLibs/armeabi/libnative-lib.so",
 			"toolchain" : "1812056545"
 		}
 	},

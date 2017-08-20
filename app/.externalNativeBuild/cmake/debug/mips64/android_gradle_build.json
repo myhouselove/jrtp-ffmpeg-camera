@@ -8,6 +8,14 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
+		"librtp_jni-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "librtp_jni",
+			"buildType" : "debug",
+			"output" : "G:/opengl/Githubrtp/app/src/main/cpp/libs/librtp_jni.so",
+			"toolchain" : "1812056545"
+		},
 		"native-lib-Debug-mips64" : 
 		{
 			"abi" : "mips64",
@@ -18,12 +26,12 @@
 			[
 				
 				{
-					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=G:/sdk/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=G:/sdk/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=G:/sdk/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=G:/sdk/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -v -std=gnu++11 -fexceptions -frtti -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "G:/opengl/Githubrtp/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "G:/opengl/Githubrtp/app/.externalNativeBuild/cmake/debug/mips64"
 				}
 			],
-			"output" : "G:/opengl/Githubrtp/app/build/intermediates/cmake/debug/obj/mips64/libnative-lib.so",
+			"output" : "G:/opengl/Githubrtp/jniLibs/mips64/libnative-lib.so",
 			"toolchain" : "1812056545"
 		}
 	},

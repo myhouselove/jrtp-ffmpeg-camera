@@ -10,6 +10,19 @@ cmake_minimum_required(VERSION 3.4.1)
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
 
+set(CMAKE_VERBOSE_MAKEFILE on)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -fexceptions -frtti")
+include_directories(${CMAKE_SOURCE_DIR}/src/main/cpp/include)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
+set(libs "${CMAKE_SOURCE_DIR}/src/main/cpp/libs")
+
+
+#--------------------------------------------------- import ---------------------------------------------------#
+add_library(librtp_jni SHARED IMPORTED )
+set_target_properties(librtp_jni PROPERTIES
+    IMPORTED_LOCATION "${libs}/librtp_jni.so")
+
+
 add_library( # Sets the name of the library.
              native-lib
 
@@ -39,7 +52,7 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
                        native-lib
-
+                       librtp_jni
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )

@@ -8,6 +8,14 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
+		"librtp_jni-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "librtp_jni",
+			"buildType" : "release",
+			"output" : "G:/opengl/Githubrtp/app/src/main/cpp/libs/librtp_jni.so",
+			"toolchain" : "1812056545"
+		},
 		"native-lib-Release-x86" : 
 		{
 			"abi" : "x86",
@@ -18,12 +26,12 @@
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=G:/sdk/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=G:/sdk/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=G:/sdk/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=G:/sdk/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem G:\\sdk\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -v -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "G:/opengl/Githubrtp/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "G:/opengl/Githubrtp/app/.externalNativeBuild/cmake/release/x86"
 				}
 			],
-			"output" : "G:/opengl/Githubrtp/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"output" : "G:/opengl/Githubrtp/jniLibs/x86/libnative-lib.so",
 			"toolchain" : "1812056545"
 		}
 	},
