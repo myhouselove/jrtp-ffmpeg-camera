@@ -15,13 +15,30 @@
 #include <winsock2.h>
 #endif // WIN32
 
+
+#include <libavcodec/avcodec.h>
+#include <libavdevice/avdevice.h>
+
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO  , "AndroidAPI", __VA_ARGS__)
+
+void testFFMPEG() {
+
+
+
+}
+
 extern "C"
 JNIEXPORT jstring JNICALL
 Java_wmy_jni_com_githubrtp_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     LOGI("1111111111111111111111\n");
+
+
+
+
+
+    testFFMPEG();
 
     RTPSession sess;
     uint16_t portbase, destport;
