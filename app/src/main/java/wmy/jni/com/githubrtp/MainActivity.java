@@ -26,4 +26,5 @@ public class MainActivity extends Activity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+    public native void FFmpeg_Init();
 }

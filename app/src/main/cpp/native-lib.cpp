@@ -7,6 +7,7 @@
 #include "rtpudpv4transmitter.h"
 #include "rtpipv4address.h"
 #include "rtpsessionparams.h"
+
 #include "rtperrors.h"
 #ifndef WIN32
 #include <netinet/in.h>
@@ -18,6 +19,7 @@
 
 #include <libavcodec/avcodec.h>
 #include <libavdevice/avdevice.h>
+#include <libavfilter/avfilter.h>
 
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO  , "AndroidAPI", __VA_ARGS__)
 
@@ -25,6 +27,16 @@ void testFFMPEG() {
 
 
 
+}
+
+JNIEXPORT void JNICALL
+Java_wmy_jni_com_githubrtp_MainActivity_FFmpeg_1Init(JNIEnv *env, jobject instance) {
+    // TODO
+    av_register_all();
+    avdevice_register_all();
+    avfilter_register_all();
+    avformat_network_init();
+    LOGI("ffmpeg register OK!\n");
 }
 
 extern "C"
