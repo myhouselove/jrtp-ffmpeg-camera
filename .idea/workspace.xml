@@ -6,113 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91e87a19-ea19-49a2-92a3-ccaa57fdd865" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/avcodec.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/avdct.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/avfft.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/d3d11va.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/dirac.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/dv_profile.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/dxva2.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/jni.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/mediacodec.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/qsv.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/vaapi.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/vda.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/vdpau.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/videotoolbox.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/vorbis_parser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/xvmc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavdevice/avdevice.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavdevice/version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavfilter/avfilter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavfilter/avfiltergraph.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavfilter/buffersink.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavfilter/buffersrc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavfilter/version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavformat/avformat.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavformat/avio.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavformat/version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/adler32.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/aes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/aes_ctr.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/attributes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/audio_fifo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/avassert.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/avconfig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/avstring.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/avutil.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/base64.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/blowfish.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/bprint.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/bswap.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/buffer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/camellia.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/cast5.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/channel_layout.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/common.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/cpu.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/crc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/des.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/dict.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/display.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/downmix_info.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/error.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/eval.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/ffversion.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/fifo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/file.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/frame.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hash.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hmac.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hwcontext.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hwcontext_cuda.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hwcontext_dxva2.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hwcontext_qsv.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hwcontext_vaapi.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/hwcontext_vdpau.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/imgutils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/intfloat.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/intreadwrite.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/lfg.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/log.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/lzo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/macros.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/mastering_display_metadata.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/mathematics.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/md5.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/mem.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/motion_vector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/murmur3.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/opt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/parseutils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/pixdesc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/pixelutils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/pixfmt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/random_seed.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/rational.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/rc4.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/replaygain.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/ripemd.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/samplefmt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/sha.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/sha512.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/spherical.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/stereo3d.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/tea.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/threadmessage.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/time.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/timecode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/timestamp.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/tree.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/twofish.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libavutil/xtea.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libswresample/swresample.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libswresample/version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libswscale/swscale.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/cpp/include/libswscale/version.h" />
+    <list default="true" id="91e87a19-ea19-49a2-92a3-ccaa57fdd865" name="Default" comment="first push project">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jrtp-ffmpeg-camera.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -131,6 +26,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
@@ -156,7 +52,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/CMakeLists.txt" afterPath="$PROJECT_DIR$/app/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" afterPath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" />
@@ -195,8 +90,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="988">
+              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -225,8 +120,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="95">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -234,39 +129,51 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="133">
               <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jmutex.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/jmutex.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="native-lib.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="404">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="22" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#236#259#0" expanded="true" />
-                <element signature="e#289#310#0" expanded="true" />
-                <element signature="e#329#360#0" expanded="true" />
-                <element signature="e#3622#3667#0" expanded="true" />
+                <element signature="e#237#260#0" expanded="true" />
+                <element signature="e#290#311#0" expanded="true" />
+                <element signature="e#346#377#0" expanded="true" />
+                <element signature="e#580#604#0" expanded="true" />
+                <element signature="e#895#4242#0" expanded="true" />
+                <element signature="e#3989#4034#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avdevice.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavdevice/avdevice.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avformat.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavformat/avformat.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="1996" column="5" selection-start-line="1996" selection-start-column="5" selection-end-line="1996" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -274,7 +181,7 @@
       <file leaf-file-name="avcodec.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/avcodec.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47955">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -291,13 +198,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-debug.apk" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk">
-          <provider selected="true" editor-type-id="apk-viewer">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -309,7 +209,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\win7\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -1738,6 +1638,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="4515756019000" />
         <entry key="G:\android\jrtp-ffmpeg-camera" value="4515684480167" />
+        <entry key="G:\jrtp-ffmpeg-camera" value="4518961999785" />
         <entry key="G:\opengl\Githubrtp" value="4509588284701" />
       </map>
     </option>
@@ -2089,8 +1990,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" />
       </list>
     </option>
@@ -2125,7 +2026,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane />
@@ -2158,77 +2058,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrtp-ffmpeg-camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrtp-ffmpeg-camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrtp-ffmpeg-camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrtp-ffmpeg-camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrtp-ffmpeg-camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrtp-ffmpeg-camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="jniLibs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
+              <option name="myItemId" value="jrtp-ffmpeg-camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrtp-ffmpeg-camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrtp-ffmpeg-camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrtp-ffmpeg-camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrtp-ffmpeg-camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrtp-ffmpeg-camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2261,6 +2145,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2281,147 +2166,6 @@
       <recent name="G:\opengl\Githubrtp\app\src\main\cpp\libs" />
       <recent name="G:\opengl\Githubrtp\app\src\main\cpp\include" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/app.iml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Githubrtp.iml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2754,11 +2498,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="972" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259346" sideWeight="0.46825397" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38253382" sideWeight="0.4611111" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2769,8 +2513,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259346" sideWeight="0.53174603" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21794872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38253382" sideWeight="0.5388889" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21790123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2824,6 +2568,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/librtp_jni.so">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libavcodec-57.so">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/jmutex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#237#260#0" expanded="true" />
+            <element signature="e#290#311#0" expanded="true" />
+            <element signature="e#346#377#0" expanded="true" />
+            <element signature="e#580#604#0" expanded="true" />
+            <element signature="e#895#4242#0" expanded="true" />
+            <element signature="e#3989#4034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/avcodec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/jni.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2831,7 +2655,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2839,9 +2662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2873,7 +2693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2889,7 +2708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2899,10 +2717,12 @@
           <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#236#259#0" expanded="true" />
-            <element signature="e#289#310#0" expanded="true" />
-            <element signature="e#329#360#0" expanded="true" />
-            <element signature="e#3622#3667#0" expanded="true" />
+            <element signature="e#237#260#0" expanded="true" />
+            <element signature="e#290#311#0" expanded="true" />
+            <element signature="e#346#377#0" expanded="true" />
+            <element signature="e#580#604#0" expanded="true" />
+            <element signature="e#895#4242#0" expanded="true" />
+            <element signature="e#3989#4034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2914,7 +2734,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2922,9 +2741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2956,7 +2772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2972,7 +2787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2982,10 +2796,12 @@
           <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#236#259#0" expanded="true" />
-            <element signature="e#289#310#0" expanded="true" />
-            <element signature="e#329#360#0" expanded="true" />
-            <element signature="e#3622#3667#0" expanded="true" />
+            <element signature="e#237#260#0" expanded="true" />
+            <element signature="e#290#311#0" expanded="true" />
+            <element signature="e#346#377#0" expanded="true" />
+            <element signature="e#580#604#0" expanded="true" />
+            <element signature="e#895#4242#0" expanded="true" />
+            <element signature="e#3989#4034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2997,7 +2813,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3005,9 +2820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3015,7 +2827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3023,7 +2834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3036,14 +2846,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="133">
           <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/libs/librtp_jni.so" />
@@ -3051,14 +2861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -3071,19 +2873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk">
-      <provider selected="true" editor-type-id="apk-viewer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/jni.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3094,22 +2884,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavcodec/avcodec.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47955">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavformat/avformat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1996" column="5" selection-start-line="1996" selection-start-column="5" selection-end-line="1996" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/include/libavdevice/avdevice.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="404">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#236#259#0" expanded="true" />
-            <element signature="e#289#310#0" expanded="true" />
-            <element signature="e#329#360#0" expanded="true" />
-            <element signature="e#3622#3667#0" expanded="true" />
+            <element signature="e#237#260#0" expanded="true" />
+            <element signature="e#290#311#0" expanded="true" />
+            <element signature="e#346#377#0" expanded="true" />
+            <element signature="e#580#604#0" expanded="true" />
+            <element signature="e#895#4242#0" expanded="true" />
+            <element signature="e#3989#4034#0" expanded="true" />
           </folding>
         </state>
       </provider>

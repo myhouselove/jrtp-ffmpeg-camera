@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="runner-0.5">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/d7bd11a1ec48b0113818bf69b13da211be48bdbc/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/d7bd11a1ec48b0113818bf69b13da211be48bdbc/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d83812b2ce9451ac99bc1198be5df66c4160f662/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/d83812b2ce9451ac99bc1198be5df66c4160f662/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

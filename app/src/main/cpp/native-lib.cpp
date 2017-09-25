@@ -16,11 +16,13 @@
 #include <winsock2.h>
 #endif // WIN32
 
-
-#include <libavcodec/avcodec.h>
-#include <libavdevice/avdevice.h>
-#include <libavfilter/avfilter.h>
-
+extern "C"
+{
+    #include <libavcodec/avcodec.h>
+    #include <libavdevice/avdevice.h>
+    #include <libavfilter/avfilter.h>
+    #include <libavformat/avformat.h>
+}
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO  , "AndroidAPI", __VA_ARGS__)
 
 void testFFMPEG() {
