@@ -87,7 +87,7 @@
 					"workingDirectory" : "G:/jrtp-ffmpeg-camera/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				}
 			],
-			"output" : "G:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib.so",
+			"output" : "G:/jrtp-ffmpeg-camera/app/src/main/jniLibs/armeabi-v7a/libnative-lib.so",
 			"toolchain" : "1812056545"
 		}
 	},

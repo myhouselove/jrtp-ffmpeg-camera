@@ -46,9 +46,9 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
 
 
 #############################################
-# Link the shared library G:\jrtp-ffmpeg-camera\jniLibs\armeabi-v7a\libnative-lib.so
+# Link the shared library ..\..\..\..\src\main\jniLibs\armeabi-v7a\libnative-lib.so
 
-build G$:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../src/main/jniLibs/armeabi-v7a/librtp_jni.so ../../../../src/main/jniLibs/armeabi-v7a/libavcodec-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavdevice-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavfilter-6.so ../../../../src/main/jniLibs/armeabi-v7a/libavformat-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavutil-55.so ../../../../src/main/jniLibs/armeabi-v7a/libswresample-2.so ../../../../src/main/jniLibs/armeabi-v7a/libswscale-4.so G$:/sdk/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/liblog.so
+build ../../../../src/main/jniLibs/armeabi-v7a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../src/main/jniLibs/armeabi-v7a/librtp_jni.so ../../../../src/main/jniLibs/armeabi-v7a/libavcodec-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavdevice-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavfilter-6.so ../../../../src/main/jniLibs/armeabi-v7a/libavformat-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavutil-55.so ../../../../src/main/jniLibs/armeabi-v7a/libswresample-2.so ../../../../src/main/jniLibs/armeabi-v7a/libswscale-4.so G$:/sdk/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/liblog.so
   LANGUAGE_COMPILE_FLAGS = -isystem G:/sdk/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -v -g -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a --sysroot G:/sdk/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = ../../../../src/main/jniLibs/armeabi-v7a/librtp_jni.so ../../../../src/main/jniLibs/armeabi-v7a/libavcodec-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavdevice-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavfilter-6.so ../../../../src/main/jniLibs/armeabi-v7a/libavformat-57.so ../../../../src/main/jniLibs/armeabi-v7a/libavutil-55.so ../../../../src/main/jniLibs/armeabi-v7a/libswresample-2.so ../../../../src/main/jniLibs/armeabi-v7a/libswscale-4.so -llog -lm "G:/sdk/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a"
@@ -57,7 +57,7 @@ build G$:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib.so: CXX_SHARED_LI
   PRE_LINK = cd .
   SONAME = libnative-lib.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = G:\jrtp-ffmpeg-camera\jniLibs\armeabi-v7a\libnative-lib.so
+  TARGET_FILE = ..\..\..\..\src\main\jniLibs\armeabi-v7a\libnative-lib.so
   TARGET_PDB = native-lib.so.dbg
 
 #############################################
@@ -81,8 +81,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build libnative-lib.so: phony G$:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib.so
-build native-lib: phony G$:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib.so
+build libnative-lib.so: phony ../../../../src/main/jniLibs/armeabi-v7a/libnative-lib.so
+build native-lib: phony ../../../../src/main/jniLibs/armeabi-v7a/libnative-lib.so
 # =============================================================================
 # Folder targets.
 
@@ -94,7 +94,7 @@ build native-lib: phony G$:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib
 #############################################
 # The main all target.
 
-build all: phony G$:/jrtp-ffmpeg-camera/jniLibs/armeabi-v7a/libnative-lib.so
+build all: phony ../../../../src/main/jniLibs/armeabi-v7a/libnative-lib.so
 
 #############################################
 # Make the all target the default.
