@@ -1,8 +1,10 @@
-package wmy.jni.com.githubrtp;
+package com.geek.vortex;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import wmy.jni.com.githubrtp.R;
 
 public class MainActivity extends Activity {
 
