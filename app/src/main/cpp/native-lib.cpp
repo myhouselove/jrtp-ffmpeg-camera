@@ -19,7 +19,7 @@
 #include <libavcodec/avcodec.h>
 #include <libavdevice/avdevice.h>
 
-#define JNIREG_CLASS "wmy/jni/com/githubrtp/NativeFFMPEGMethod"
+#define JNIREG_CLASS "com/geek/vortex/NativeFFMPEGMethod"
 # define NELEM(x) ((int) (sizeof(x) / sizeof((x)[0])))
 
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO  , "AndroidAPI", __VA_ARGS__)

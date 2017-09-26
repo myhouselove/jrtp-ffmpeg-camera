@@ -1,3 +1,0 @@
-G:/opengl/Githubrtp/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/native-lib.dir
-G:/opengl/Githubrtp/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
-G:/opengl/Githubrtp/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir

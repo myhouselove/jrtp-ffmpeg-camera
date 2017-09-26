@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="wmy.jni.com.githubrtp.MainActivity">
+    tools:context="wmy.jni.com.githubrtp.wmy.jni.com.vortex.MainActivity">
 
     <TextView
         android:id="@+id/sample_text"
