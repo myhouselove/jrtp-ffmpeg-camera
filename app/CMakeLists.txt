@@ -13,14 +13,42 @@ cmake_minimum_required(VERSION 3.4.1)
 set(CMAKE_VERBOSE_MAKEFILE on)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -fexceptions -frtti")
 include_directories(${CMAKE_SOURCE_DIR}/src/main/cpp/include)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
-set(libs "${CMAKE_SOURCE_DIR}/src/main/cpp/libs")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI})
+set(libs "${CMAKE_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}")
 
 
 #--------------------------------------------------- import ---------------------------------------------------#
 add_library(librtp_jni SHARED IMPORTED )
 set_target_properties(librtp_jni PROPERTIES
     IMPORTED_LOCATION "${libs}/librtp_jni.so")
+
+add_library(libavcodec-57 SHARED IMPORTED )
+set_target_properties(libavcodec-57 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libavcodec-57.so")
+
+add_library(libavdevice-57 SHARED IMPORTED )
+set_target_properties(libavdevice-57 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libavdevice-57.so")
+
+add_library(libavfilter-6 SHARED IMPORTED )
+set_target_properties(libavfilter-6 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libavfilter-6.so")
+
+add_library(libavformat-57 SHARED IMPORTED )
+set_target_properties(libavformat-57 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libavformat-57.so")
+
+add_library(libavutil-55 SHARED IMPORTED )
+set_target_properties(libavutil-55 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libavutil-55.so")
+
+add_library(libswresample-2 SHARED IMPORTED )
+set_target_properties(libswresample-2 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libswresample-2.so")
+
+add_library(libswscale-4 SHARED IMPORTED )
+set_target_properties(libswscale-4 PROPERTIES
+    IMPORTED_LOCATION "${libs}/libswscale-4.so")
 
 
 add_library( # Sets the name of the library.
@@ -52,7 +80,7 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
                        native-lib
-                       librtp_jni
+                       librtp_jni libavcodec-57 libavdevice-57 libavfilter-6 libavformat-57 libavutil-55 libswresample-2 libswscale-4
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )
